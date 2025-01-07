@@ -43,6 +43,7 @@ offset_right = 440.0
 offset_bottom = 450.0
 theme = ExtResource("2_c4oq5")
 theme_override_styles/normal = SubResource("StyleBoxFlat_vs2vj")
+disabled = true
 
 [node name="TopRight" type="Button" parent="."]
 custom_minimum_size = Vector2(200, 200)
@@ -53,6 +54,7 @@ offset_right = 440.0
 offset_bottom = 250.0
 theme = ExtResource("2_c4oq5")
 theme_override_styles/normal = SubResource("StyleBoxFlat_awl4f")
+disabled = true
 
 [node name="BottomLeft" type="Button" parent="."]
 custom_minimum_size = Vector2(200, 200)
@@ -63,6 +65,7 @@ offset_right = 240.0
 offset_bottom = 450.0
 theme = ExtResource("2_c4oq5")
 theme_override_styles/normal = SubResource("StyleBoxFlat_pvlo5")
+disabled = true
 
 [node name="TopLeft" type="Button" parent="."]
 custom_minimum_size = Vector2(200, 200)
@@ -73,3 +76,4 @@ offset_right = 240.0
 offset_bottom = 250.0
 theme = ExtResource("2_c4oq5")
 theme_override_styles/normal = SubResource("StyleBoxFlat_8g0dc")
+disabled = true
