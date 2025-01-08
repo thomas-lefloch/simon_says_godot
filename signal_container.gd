@@ -34,6 +34,11 @@ func create_and_show_signals(signal_count: int) -> void:
 		add_child(sig)
 	show()
 	
-func reset_all_signals():
+func clear_all_signals():
 	for child in get_children():
 		child.texture = textureByState[SignalState.DEFAULT]
+
+func reset():
+	for child in get_children():
+		self.remove_child(child)
+		child.queue_free()
